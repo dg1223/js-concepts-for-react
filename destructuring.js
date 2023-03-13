@@ -24,3 +24,9 @@ const [firstMovie, secondMovie] = student.movies;
 
 console.log(x, y);
 console.log(boxify);
+
+// object destructuring
+// const { name, age } = { name: "alu", age: 14 };
+const employee = { id: 12, name: "alu", salary: 34000, age: 14 };
+const { name, age } = { id: 12, name: "alu", salary: 34000, age: 14 };
+const { salary, id } = employee;
